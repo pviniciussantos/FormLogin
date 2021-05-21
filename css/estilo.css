@@ -1,0 +1,113 @@
+/* Resetando todo o conteúdo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background-image: url(../img/rytech.png);
+    background-size: cover;
+    
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a, label {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #08558b;
+}
+
+/* LOGIN */
+
+#login-container {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* Formulário*/
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    
+}
+
+input {
+    border-bottom: 1px solid ;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 1px solid #c24ef0;
+    
+}
+
+input:focus[type=email] {
+    border-bottom: 1px solid #fdac15;
+}
+
+input:focus[type=password] {
+    border-bottom: 1px solid #6ddbee;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: #08558b;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #48acda;
+    transition: .5s;
+}
+
+/* REGISTRAR */
+
+#register-container p {
+    margin-bottom: 10px;
+    
+}
+
+#recover {
+    color: white;
+}
+
+#container-recover {
+    margin: 0;
+    padding: 0;
+}

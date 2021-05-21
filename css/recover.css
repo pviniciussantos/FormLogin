@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-image: url(../img/Tela\ futurista.jpeg);
+    background-size: cover;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#recover-container {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+}
+
+h1 {
+    color: teal;
+    margin-bottom: 20px;
+    
+}
+
+label, input {
+    display: flex;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+    
+    
+}
+
+input[type="password"] {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 20%;
+    background-color: #08558b;
+    margin-bottom: 5px;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #48acda;
+    transition: .5s;
+}
